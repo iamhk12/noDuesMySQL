@@ -1,0 +1,59 @@
+.allRequestsPage {
+    margin: 20px;
+}
+
+.allRequestsPage h2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.allRequestsPage .searchBox input{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    min-width: 500px;
+}
+
+.allRequestsPage .spanApp {
+    color: green;
+    font-weight: 600;
+}
+
+.allRequestsPage .spanPen {
+    color: red;
+    font-weight: 600;
+}
+
+.allRequestsPage table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.allRequestsPage th,
+.allRequestsPage td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #cccccc84;
+}
+
+.allRequestsPage th {
+    background-color: #f2f2f2;
+}
+
+.allRequestsPage input[type="checkbox"] {
+    margin-left: 5px;
+}
+
+
+.allRequestsPage button {
+    padding: 5px 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.allRequestsPage button:hover {
+    background-color: #45a049;
+}

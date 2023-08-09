@@ -1,0 +1,119 @@
+.AR {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(255, 171, 171);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.boldtextB {
+    font-weight: 600;
+    color: #002247;
+}
+
+.adminrequestpage {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 20px;
+    /* Added padding for better mobile layout */
+}
+
+.adminrequestpage h2 {
+    text-align: center;
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+.adminrequestpage .cardx {
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.adminrequestpage .card p {
+    margin: 5px 0;
+    color: #333;
+}
+
+.adminrequestpage .fileFor {
+    font-weight: 800;
+    margin-bottom: 7px;
+}
+
+.adminrequestpage .card p {
+    margin: 5px 0;
+    color: #333;
+}
+
+.adminrequestpage button {
+    background-color: #0184ff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 0px;
+    border: #000000 2px solid;
+    box-shadow: #0000002c 0px 5px 10px;
+}
+
+.adminrequestpage button:hover {
+    background-color: #339cff;
+    box-shadow: #00000058 0px 5px 10px;
+}
+
+.adminrequestpage button:focus{
+    background-color: #00da71;
+
+}
+
+.adminrequestpage h3 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+}
+
+/* CSS for images */
+
+.adminrequestpage img {
+    height: auto;
+    margin-bottom: 20px;
+    width: 70%;
+    box-shadow: #00000076 0px 0px 10px;
+    border-radius: 4px;
+}
+
+.adminrequestpage embed {
+    width: 70%;
+    height: 600px;
+    margin-bottom: 20px;
+    box-shadow: #000000 0px 0px 10px;
+    border-radius: 4px;
+}
+
+.adminrequestpage .flexcenterdiv {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 768px) {
+    .adminrequestpage {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .AR {
+        padding-top: 30px;
+    }
+
+    .adminrequestpage img,
+    .adminrequestpage embed {
+        width: 100%;
+    }
+}
